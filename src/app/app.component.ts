@@ -20,6 +20,14 @@ export class AppComponent {
     this.quotation = { author: '', sentence: '', votes: 0 };
   }
 
+  bestQuotes() {
+    return this.quotes.filter(q => q.votes > 0);
+  }
+
+  worstQuotes() {
+    return this.quotes.filter(q => q.votes < 0);
+  }
+
   addVote(quotation: Quotation, value: number) {
     quotation.votes += value;
   }
