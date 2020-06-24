@@ -23,4 +23,7 @@ export class AppComponent {
   addVote(quotation: Quotation, value: number) {
     quotation.votes += value;
   }
+  onNewQuotation(quotation: Quotation) {
+    this.quotes.unshift(quotation)
+  }
 }
