@@ -1,5 +1,5 @@
 .mr-5 {
-    margin-right: 5px;
+    margin-right: 7px;
   }
   
   .edit-row {
@@ -18,5 +18,5 @@
   .add-button {
     position: absolute !important;
     right: 0;
-    top: -22px;
+    top: 15px;
   }
