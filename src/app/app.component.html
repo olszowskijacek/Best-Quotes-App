@@ -4,9 +4,7 @@
 
 <div class="container q-container">
   <!--Dodawanie cytatu-->
-  <button class="btn-floating teal add-button" (click)="form.onSwitchForm()">
-    <i class="material-icons">add</i>
-  </button>
+  <app-button (clickButton)="form.onSwitchForm()"></app-button>
   <app-form #form (newQuotation)="onNewQuotation($event)"></app-form>
   <!-- Koniec dodawania cytatu -->
 
