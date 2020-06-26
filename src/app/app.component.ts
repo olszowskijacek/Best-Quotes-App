@@ -10,7 +10,6 @@ import { Quotation } from './models/quotation'
 export class AppComponent {
   
   quotes: Quotation[] = QUOTES;
-  
 
   bestQuotes() {
     return this.quotes.filter(q => q.votes > 0);
