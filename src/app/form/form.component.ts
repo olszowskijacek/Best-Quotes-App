@@ -8,7 +8,7 @@ import { Quotation } from '../models/quotation';
 })
 export class FormComponent {
   @Output() newQuotation = new EventEmitter<Quotation>();
-  showForm = false;
+  showForm = true;
 
   quotation: Quotation = { author: '', sentence: '', votes: 0 };
 
