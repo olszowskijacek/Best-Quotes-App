@@ -1,1 +1,15 @@
 
+@media (max-width: 540px) {
+    .row {
+        width: 100%;
+        margin: auto;
+    }
+    .main {
+        /* max-width: 320px !important; */
+        margin: auto;
+    }
+    .rwdItem {
+        width: 100% !important;
+        margin: auto !important;
+    }
+}

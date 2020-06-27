@@ -20,3 +20,9 @@
     right: 0;
     top: -50px;
   }
+
+  @media (max-width: 450px) {
+    .add-button {
+      top: -80px;
+    }
+  }
